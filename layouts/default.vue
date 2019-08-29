@@ -1,7 +1,7 @@
 <template lang="pug">
   div.content-wrapper
     header-menu
-      no-ssr
+      client-only
         notifications(group="alerts" position="bottom right")
     .flex-1
       nuxt
