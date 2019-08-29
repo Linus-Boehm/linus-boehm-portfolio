@@ -1,0 +1,9 @@
+.hero-container{
+  @apply flex flex-col items-stretch;
+
+}
+.hero-content{
+  @apply flex p-6 items-center;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
