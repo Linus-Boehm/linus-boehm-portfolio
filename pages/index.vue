@@ -5,7 +5,7 @@
         .container.mx-auto
           span.hi Hi!
           h1.title Ich bin Linus
-          vue-typed-js(:strings="['Software Entwickler', 'VueJs Developer','Problemlöser', 'Go Developer', 'Tech Enthusiast']" :shuffle="true" :backDelay="400" :startDelay="1500" :backSpeed="50" :loopCount="3" :loop="true")
+          vue-typed-js(:strings="['Software Entwickler', 'VueJs Developer','Problemlöser', 'Go Developer', 'Tech Enthusiast']" :shuffle="true" :backDelay="400" :startDelay="1500" :backSpeed="50" :loopCount="2" :loop="true")
             span.subtitle.text-warning-dark.pr-1 Ein
               span.typing.pl-1
           .flex.mt-4.intro-buttons

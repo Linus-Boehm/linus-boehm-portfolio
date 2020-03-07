@@ -10,7 +10,7 @@
           nuxt-link.btn.btn-info(to="/login") Login
 
       nuxt-link(to="/").main-logo
-        img.mx-auto( src="logo.svg")
+        img.mx-auto( src="/logo.svg")
     nav.sidenav.z-20( :class="{'is-active': menuToggle}")
       .sidenav-inner.flex.flex-col
         h2.pl-5 MENU
