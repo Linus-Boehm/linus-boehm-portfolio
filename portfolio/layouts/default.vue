@@ -8,8 +8,8 @@
     footer-component.footer
 </template>
 <script>
-import FooterComponent from '@/components/layout/FooterComponent'
-import HeaderMenu from '@/components/layout/HeaderMenu'
+import FooterComponent from '@/portfolio/components/layout/FooterComponent'
+import HeaderMenu from '@/portfolio/components/layout/HeaderMenu'
 
 export default {
   components: { FooterComponent, HeaderMenu }
